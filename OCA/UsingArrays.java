@@ -3,8 +3,6 @@
 
 import java.util.*;
 
-
-
 public class UsingArrays{
 	public static void main(String[] args) {
 	
@@ -27,7 +25,6 @@ public class UsingArrays{
 		System.out.println(Arrays.binarySearch(numbers2, 6));
 
 
-
 		// ------ Multidimensional Arrays ------ 
 		String[][] rectangle = new String[1][2];
 		rectangle[0][1] = "side";
@@ -44,6 +41,7 @@ public class UsingArrays{
 			System.out.println();
 		}
 
+		
 		ArrayList<String> list = new ArrayList<>();
 		list.add("Hawk");
 		list.add("Freedom");
