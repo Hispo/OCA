@@ -50,5 +50,14 @@ public class UsingArrays{
 		list.set(1, "Hawk");
 		System.out.println();
 		System.out.println(list);
+		
+		
+		// Page 136
+		ArrayList<Integer> ints = new ArrayList<>();
+		ints.add(1);
+		ints.add(2);
+		ints.add(3);
+		ints.remove(1); // this is a index 1
+		System.out.println(ints);
 	}
 }
