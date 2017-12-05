@@ -10,7 +10,7 @@ public class TryStatement {
 			getUp();
 		} 
 		// Reversing the catchs will cause a compilation error.
-		//error: exception RuntimeException has already been caught.
+		// error: exception RuntimeException has already been caught.
 		catch (Exception ex) { 
 			System.out.println("Exception");
 		} finally {
